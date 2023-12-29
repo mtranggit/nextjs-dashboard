@@ -8,7 +8,7 @@ export default function SideNav() {
   const handleSignOut = async () => {
     'use server';
     await signOut();
-  }
+  };
   return (
     <div className="flex h-full flex-col px-3 py-4 md:px-2">
       <Link
